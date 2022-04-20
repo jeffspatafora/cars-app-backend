@@ -1,2 +1,14 @@
 ### index
 GET http://localhost:3000/cars
+
+### create
+POST http://localhost:3000/cars
+Content-Type: application/json
+
+{
+  "make": "ford",
+  "model": "escape",
+  "year": 2012,
+  "color": "grey",
+  "image_url": "https://images.dealersync.com/cloud/userdocumentprod/2077/Photos/28591/20150928233550890_6f1eeeef0e12439ca03fd016776e0000.jpg?_=d06c398e02eb4724a0b1047791716826"
+}
